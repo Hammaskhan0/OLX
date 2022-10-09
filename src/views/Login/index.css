@@ -1,0 +1,106 @@
+.login-Col{
+    height: 400px;
+    box-shadow: grey 4 4px 2px 2px;
+     -webkit-box-shadow: 3px 3px 3px 4px #9E9E9E;
+    -moz-box-shadow: 4px 3px 3px 4px #9E9E9E; 
+    
+    
+}
+.button-Main-Col{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.face-Button{
+    color: white;
+    background-color: blue;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 42px;
+}
+.face-Button:hover{
+    background-color: white;
+    color: black;
+    border: solid blue;
+}
+.goog-button{
+    height: 40px;
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    border: none;
+    /* margin-left: 5px; */
+}
+.icon-Col-Google{
+    border: solid blue 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+}
+.email-Col{
+    
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-Input{
+    height: 40px;
+    border-radius: 3px;
+    width: 93%;
+    border: solid #ededed;
+}
+.password-Input{
+    height: 40px;
+    border-radius: 3px;
+    width: 93%;
+    border: solid #ededed;
+}
+.login-button{
+    background-color: blue;
+    font-family: sans-serif;
+    color: white;
+    width: 97%;
+    margin-top: 40px;
+    height: 40px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.Signup-button{
+    font-family: sans-serif;
+    color: black;
+    width: 97%;
+    margin-top: 40px;
+    height: 40px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 25px;
+    background-color: white;
+}
+.Signup-button:hover{
+    color: blue;
+}
+@media screen and (max-width: 600px){
+    .button-Main-Col{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 820px){
+    .button-Main-Col{
+        display: block;
+    }
+    
+}

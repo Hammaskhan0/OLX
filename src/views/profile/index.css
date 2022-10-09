@@ -1,0 +1,43 @@
+.avatar{
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: gray;
+    border-style: double;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+.profile-main-col{
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: 1px 1px 1px 1px gray;
+    height: 420px;
+    /* margin-top: 100px */
+    border-radius: 4px;
+}
+.submit-button {
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    border: none;
+    background-color: #4CAF50;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+  }
+  
+  .submit-button:hover {
+    background-color: #344335; /* Green */
+    color: white;
+  }
+  /* ...} */
+ .p{
+  font-family: cursive;
+  color: rgb(89, 70, 70);
+ }
+
+  

@@ -1,0 +1,24 @@
+/* .card-main-col{
+    background-color: gray;
+    height: 350px;
+    overscroll-behavior-x: 2px 3px 2px 4px gray;
+    box-shadow:2px 3px 2px 4px black; ;
+    border-radius: 4px;
+} */
+.Buttons{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 33px;
+
+}
+.Buttons:hover{
+    background-color: black;
+    color: gray;
+}
+@media screen and (max-width: 600px){
+    .dash-card-col{
+        margin: 0px;
+    }
+}

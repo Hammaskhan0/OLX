@@ -1,0 +1,15 @@
+.card-main-col{
+    background-color: rgb(237, 186, 186);
+    height: 320px;
+    overscroll-behavior-x: 2px 1px 2px 1px gray;
+    box-shadow:2px 1px 1px 1px green; ;  
+    border-radius: 4px;
+    margin-bottom: 20px;
+    /* border:  solid red; */
+    cursor: pointer;
+}
+.card-main-col:hover{
+    /* background-color: lightslategray; */
+    overscroll-behavior-x: 3px 4px 2px 2px gray;
+    box-shadow:2px 6px 3px 3px green; ;  
+}

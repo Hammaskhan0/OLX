@@ -1,0 +1,77 @@
+.detailCol{
+    background-color: black;
+    height: 500px;
+    margin: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detailImage{
+height: 490px;
+width: 500px;
+}
+.priceCol{
+    /* border-color: rgb(172, 165, 165); */
+    border-radius: 4px;
+    /* height: 180px; */
+/* border: solid gray; */
+/* border-collapse: separate; */
+/* border-block-end-color: black; */
+border: solid rgb(147, 140, 140);
+border-top-width: 1px;
+border-bottom-width: 1px;
+border-right-width: 1px;
+border-left-width: 1px;
+padding: 10px;
+margin-top: 10px;
+}
+.descCol{
+    border-radius: 4px;
+    height: 300px;
+border: solid rgb(147, 140, 140);
+border-top-width: 1px;
+border-bottom-width: 1px;
+border-right-width: 1px;
+border-left-width: 1px;
+margin-top: 50px;
+padding: 10px;
+}
+.chat-with-seller{
+    background-color:rgb(15, 14, 14) ;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.deatil-col{
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+.description{
+    border: solid rgb(147, 140, 140);
+border-top-width: 1px;
+border-bottom-width: 1px;
+border-right-width: 1px;
+border-left-width: 1px;
+border-radius: 4px;
+margin: 10px;
+padding: 10px;
+height: 500px;
+}
+@media screen and (max-width: 600px){
+    .detailImage{
+        height: 290px;
+width: 300px;
+    }
+    .deatil-col{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+   
+
+}

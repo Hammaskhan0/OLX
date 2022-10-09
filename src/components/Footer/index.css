@@ -1,0 +1,28 @@
+.footer-Main-Row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ebeeef;
+    padding: 15px;
+    border: 2px solid #b3b2b2;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    /* margin-bottom: 20px; */
+  }
+  .footer-Text {
+    margin: 1px;
+    font-size: 14px;
+    color: #839590;
+    cursor: pointer;
+  }
+  .footer-Text:hover {
+    color: #627f82;
+  }
+  .app-Store-Button {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 10px;
+    height: 30px;
+  }
